@@ -55,6 +55,9 @@ web:
 
 # How many cron instances to run
 cron:
+  repository: sentry
+  tag: "9.1.2"
+  pullPolicy: IfNotPresent
   replicacount: 1
   resources: {}
     # limits:
